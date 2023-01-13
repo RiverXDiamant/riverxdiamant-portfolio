@@ -1,4 +1,4 @@
-# Personal Portfolio
+# Portfolio
 
 ### <u>Technologies Used</u>
 ### `HTML`

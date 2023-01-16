@@ -3,3 +3,7 @@
 @tailwind utilities;
 
 /*Custom CSS*/
+
+div {
+  border: solid black 2px;
+}

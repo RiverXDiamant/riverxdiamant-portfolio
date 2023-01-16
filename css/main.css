@@ -560,6 +560,14 @@ video {
   margin-top: 2.5rem;
 }
 
+.mt-80 {
+  margin-top: 20rem;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -570,6 +578,10 @@ video {
 
 .flex-row {
   flex-direction: row;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-col-reverse {
@@ -613,15 +625,33 @@ video {
   padding-top: 0.5rem;
 }
 
+.align-baseline {
+  vertical-align: baseline;
+}
+
 /*Custom CSS*/
 
 div {
   border: solid black 2px;
 }
 
+@media (min-width: 480px) {
+  .sm\:flex {
+    display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:flex {
     display: flex;
+  }
+
+  .md\:hidden {
+    display: none;
   }
 
   .md\:flex-row {

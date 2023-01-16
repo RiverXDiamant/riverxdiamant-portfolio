@@ -4,7 +4,8 @@
 
 /*Custom CSS*/
 
-div {
+div,
+img {
   border: solid black 2px;
 }
 

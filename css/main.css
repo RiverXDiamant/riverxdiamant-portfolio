@@ -568,6 +568,10 @@ video {
   display: none;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -617,9 +621,14 @@ video {
   padding-top: 0.5rem;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 /*Custom CSS*/
 
-div {
+div,
+img {
   border: solid black 2px;
 }
 
@@ -632,10 +641,6 @@ section {
     display: flex;
   }
 
-  .sm\:w-1\/2 {
-    width: 50%;
-  }
-
   .sm\:flex-col-reverse {
     flex-direction: column-reverse;
   }
@@ -646,21 +651,23 @@ section {
     display: flex;
   }
 
-  .md\:w-1\/2 {
-    width: 50%;
+  .md\:w-32 {
+    width: 8rem;
   }
 
   .md\:flex-row {
     flex-direction: row;
   }
 
-  .md\:flex-col {
-    flex-direction: column;
-  }
-
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(0px * var(--tw-space-y-reverse));
+  }
+}
+
+@media (min-width: 976px) {
+  .lg\:w-48 {
+    width: 12rem;
   }
 }

@@ -4,14 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <script defer src="script.js"></script>
-    <title>River's Portfolio - V1</title>
+    <title>River's Portfolio V1</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Portfolio Placeholder</h1>
-    </div>
+    <!-- Nav Bar -->
+    <nav class="relative container mx-auto p-6">
+      <!-- Flex-container -->
+      <div class="flex items-center justify-between">
+        <!-- Logo and Name -->
+        <div class="flex items-center justify-betwen pt-2">
+          <img src="" alt="animated-logo" />
+          &nbsp;
+          <h1>Alex Eddings</h1>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="hidden space-x-6 md:flex">
+          <a href="#" class="">Skills</a>
+          <a href="#" class="">Projects</a>
+          <a href="#" class="">Contact</a>
+          <a href="#" class="">About</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Flex container end-->
+
+    <!-- Main section: flex-row on md screens and flex-col-reverse on sm screens -->
+    <section class="main">
+      <!-- Flex container -->
+      <div
+        class="container flex flex-col-reverse items-center px-6 mx-auto mt-10 space-y-0 md:flex-row md:space-y-0"
+      >
+        <!-- Center Item 1 - About -->
+        <div class="flex">
+          <h1>About Placeholder</h1>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
